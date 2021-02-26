@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: Montserrat;
+    font-weight: 500;
+    src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap') format("woff");
+  }
+  @font-face {
+    font-family: Raleway;
+    font-weight: 300;
+    src: url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap') format("woff");
+  }
+  
+}
